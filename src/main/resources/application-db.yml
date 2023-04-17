@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/book-shop
+    url: jdbc:postgresql://localhost:5432/book-prod
     username: postgres
     password: root
   config:
@@ -13,11 +13,11 @@ spring:
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/test
+    url: jdbc:postgresql://localhost:5432/book-shop
     username: postgres
     password: root
   config:
     activate:
-      on-profile: test
+      on-profile: book-shop
 
 

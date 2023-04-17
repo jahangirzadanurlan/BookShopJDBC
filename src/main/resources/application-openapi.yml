@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: Book Shop
+    author: jahangirzadanurlan
+    version: 1.0.0
+
